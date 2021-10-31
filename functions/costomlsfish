@@ -1,0 +1,5 @@
+functions --copy ls standard_ls
+
+function costomls
+  standard_ls ;
+end
