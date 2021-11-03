@@ -10,7 +10,7 @@ function fish_prompt --description 'Informative prompt'
                 (prompt_pwd) (set_color normal)
         case '*'
             set_color c0c0c0
-            printf '[%s] %s %s%s %s%s%s \f\r ' (date "+%H:%M:%S") (set_color brblue) (set_color 66ffff) (prompt_pwd) $pipestatus_string
+            printf '[%s] %s %s%s %s%s%s \f\r ' (date "+%H:%M:%S") (set_color blue) (set_color 66ffff) (prompt_pwd) $pipestatus_string
             set_color ffd700    
             printf '>>> '       
     end
